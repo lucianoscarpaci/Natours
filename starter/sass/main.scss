@@ -20,41 +20,7 @@
 
 
 
-.heading-primary {
-    color: $color-white;
-    text-transform: uppercase;
 
-    backface-visibility: hidden;
-    margin-bottom: 6rem;
-
-    &--main:hover {
-        animation: moveInRight 1s ease-in-out;
-    }
-    
-    &--sub:hover {
-        animation: moveInLeft 1s ease-in-out;
-    }
-    
-    &--main {
-        display: block;
-        font-size: 5.5rem;
-        font-weight: 400;
-        letter-spacing: 3.5rem;
-    
-        animation-name: moveInLeft;
-        animation-duration: 1s;
-        animation-timing-function: ease-in;
-    }
-    &--sub {
-        display: block;
-        font-size: 1.5rem;
-        font-weight: 400;
-        letter-spacing: 1.74rem;
-        animation: moveInRight 1s ease-out
-    }
-
-
-}
 
 
 
