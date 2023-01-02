@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "webpage for natours",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucianoscarpaci/Natours.git"
+  },
+  "author": "lucianoscarpaci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucianoscarpaci/Natours/issues"
+  },
+  "homepage": "https://github.com/lucianoscarpaci/Natours#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
