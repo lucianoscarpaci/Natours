@@ -4,7 +4,8 @@
   "description": "webpage for natours",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass sass/main.scss css/style.css -w"
+    "scss": "node-sass sass/main.scss css/style.css -w",
+    "reload": "node-sass sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
