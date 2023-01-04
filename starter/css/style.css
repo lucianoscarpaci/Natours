@@ -86,7 +86,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #7ed56f, #777);
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem;
@@ -188,22 +188,22 @@ body {
     z-index: 10;
     transition: all .2s;
     outline-offset: 2rem; }
-    .composition__photo__p1 {
+    .composition__photo--p1 {
       left: 0;
       top: -2rem; }
-    .composition__photo__p2 {
+    .composition__photo--p2 {
       right: 0;
       top: 2rem; }
-    .composition__photo__p3 {
+    .composition__photo--p3 {
       left: 20%;
       top: 10rem; }
     .composition__photo:hover {
       outline: 1.5rem solid #55c57a;
-      transform: scale(1.05);
+      transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
   .composition:hover .composition__photo:not(:hover) {
-    transform: scale(0.9); }
+    transform: scale(0.95); }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
