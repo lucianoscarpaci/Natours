@@ -11,12 +11,11 @@
         font-size: 5rem;
         margin-bottom: .5rem;
         display: inline-block;
-        background-image: linear-gradient(to right, $color-primary-light, $color-grey-dark);
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
         -webkit-background-clip: text;
         color: transparent;
     }
-
-    &hover {
+    &:hover {
         transform: translateY(-1.5rem) scale(1.03);
     }
 }
